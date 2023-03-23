@@ -1,3 +1,2 @@
 print("HAllo")
-
-word
+print(" Dobavil sodershimoy")
