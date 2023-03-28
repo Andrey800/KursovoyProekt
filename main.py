@@ -86,7 +86,8 @@ for i in searchGirl():
     fileLines = open(i,'r').readline().split(' ')
 
     try:
-        if b[fileLines[0]] < int(fileLines[1]):b[fileLines[0]] = int(fileLines[1])
+        if b[fileLines[0]] < int(fileLines[1]):
+            b[fileLines[0]] = int(fileLines[1])
     except:b[fileLines[0]] = int(fileLines[1])
 
 print(b)
